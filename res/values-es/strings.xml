@@ -1036,7 +1036,54 @@ y puede editar el libro utilizando el menú de opciones.
 
     <!-- End: Added/Updated in 5.1.1 -->
 
-    <!-- Begin: Added/Updated in [Next Version] DO NOT TRANSLATE YET! MAY CHANGE OR BE DELETED! -->
+    <!-- Begin: Added/Updated in 5.1.2 -->
+
+    <!-- A heading in the 'about' dialog -->
+    <string name="amazon">Amazon</string>
     
+    <!-- The following strings are not in this release, but will be in a future release -->
+    <!--  Menu Item - will be in the next release -->
+    <string name="buy_at_amazon">Comprar este libro</string>
+
+    <!-- Heading for the "new_in_xxx" message to make future updates less work for translators...I hope -->
+    <!-- The plan is to use specific feature strings so that we can also update the store listing and add/remove reatures easily -->
+    <string name="new_in_zzz">Novedades en la versión %1$s</string>
+    <!-- Part of the "new in x.x.x" message -->
+    <string name="new_in_xxx_bug_fixes">Corrección de errores</string>
+    
+    <!-- End: Added/Updated in 5.1.2 -->
+
+    <!-- Begin: Added/Updated in 5.2.0 -->
+    
+    <!-- Preference name (fairly short) for preferred language -->
+    <string name="preferred_interface_language">Idioma de interfaz preferido</string>
+    <!-- Preference value for a specific language. First arg is name in it's own language, second arg is name in current locale -->
+    <string name="preferred_language_x">%1$s (%2$s)</string>
+
+    <!-- This is an UPDATED string copied from earlier in the file; "Google Googles" (sic) was removed from the list of scanners -->
+    <string name="install_scan">Para poder escanear códigos de barras ISBN debe instalar una aplicación de escaneo (Zxing o pic2shop).</string>
+
+    <string name="system_locale">Sistema Local</string>
+
+    <!-- Credits in the 'about' dialog -->
+    <string name="translators_blurb">BookCatalogue es fruto del esfuerzo de muchas personas, y no tendría un uso tan extendido sin la generosa colaboración de nuestros traductores (voluntarios): Eugenio Davolio, José M. Galdo, Imkal, Dimitris Klisiari, Gideon van Melle, Emir Sarı, Nick Silin y Robert Wetzlmayr (si nos hemos olvidado de alguien, por favor, díganoslo).</string>
+
+    <string name="new_in_520">
+		<![CDATA[
+			<p><b>Novedades en la versión 5.2.0</b>\n\n
+			    * Idioma de interfaz seleccionable por el usuario, en Preferencias\n\n
+			    * Traducción al griego (Dimitris Klisiaris)\n\n
+                * Uso de mayúsculas específico (de, fr)\n\n
+                * Mejoras en las búsquedas\n\n
+				* Corrección de errores\n\n
+			</p>
+		]]>
+    </string>
+
+    <!-- End: Added/Updated in 5.2.0 -->
+
+    <!-- Begin: Added/Updated in [Next Version] DO NOT TRANSLATE YET! MAY CHANGE OR BE DELETED! -->    
+
     <!-- End: Added/Updated in [Next Version] -->
+
 </resources>
